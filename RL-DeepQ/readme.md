@@ -19,7 +19,7 @@ RL（Reinforcement Learning） 基于称为马尔可夫决策过程 (MDP) 的模
 * Reward（奖励）
 * Observation（观察）
 * Agent(代理)
-
+![pacman](./images/pacman.png "pacman")
 下面举一个吃豆人（Pac Man）游戏的例子：
 * Agent：计算机控制什么（吃豆人）
 * State：游戏中的当前状态（吃豆人中的每一帧）
@@ -34,7 +34,7 @@ Deep Learning + Reinforcement Learning = Deep-Q-Networks
 Q Value 指的是Deep-Q-Networks 中的 Q，是一个动作在特定状态下的 “质量”。 如果一个动作具有很高的预期长期价值，那么它就是高质量的。
 本实验为了简化将游戏的环境设置为一个矩阵，在真实游戏中比如上文提到的吃豆人游戏需要根据吃豆人的每一帧的图片信息获取当前状态，这种场景需要借助卷积神经网络来协助处理图片，从而获取照片中是否有吃豆人，以及他的位置。
 ## 实验游戏介绍
-
+![game](./images/game.png "game")
 如上图所示
 S：代表起点
 F：代表冰面
@@ -45,11 +45,15 @@ G：代表目的地
 ## 实验内容介绍
 本实验均通过notebook中代码进行执行，详见 game-leveling-notebook.ipynb
 实验内容分为三部分
+![true_man](./images/true_man.png "trueman")
 * 真人体验游戏 ： 您可以通过notebook中的UI组件尝试游戏
+![random_robot](./images/random_robot.png "random")
 * 随机机器人：通过随机机器人进行游戏测试，查看通关率情况
+![ai_robot](./images/ai_robot.png "ai")
 * 智能机器人：经过RL学习的机器人，查看通关率情况，根据设置不同难度，同时查看通关率，根据游戏的预期选择合适的通关率对应的难度设计策略。
 
 在本实验中，您将训练强化学习 (RL) Agent 来玩名为 *Frozen Lake* 的简单文本游戏。然后，你将使用该代理来评估多个随机生成的关卡的难度 。这种方法同样适用于其他游戏场景。
+
 ## 环境准备
 1. 创建Sagemaker notebook实例
 2. 导入本文中的 game-leveling-notebook.ipynb 文件
