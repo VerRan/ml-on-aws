@@ -19,8 +19,10 @@ RL（Reinforcement Learning） 基于称为马尔可夫决策过程 (MDP) 的模
 * Reward（奖励）
 * Observation（观察）
 * Agent(代理)
+
 ![pacman](./images/pacman.png "pacman")
-下面举一个吃豆人（Pac Man）游戏的例子：
+</br>
+下面举一个吃豆人（Pac Man）游戏的例子(如上图)：
 * Agent：计算机控制什么（吃豆人）
 * State：游戏中的当前状态（吃豆人中的每一帧）
 * Action：代理做出的决定（吃豆人向左或向右移动）
