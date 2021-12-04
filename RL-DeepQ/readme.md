@@ -71,8 +71,8 @@ G：代表目的地
 尽管本实验是一个非常简单的游戏，但是针对其他更复杂的游戏也可以使用该方案进行验证，其中区别主要在于环境的复杂度，Agent的数量以及状态获取的预处理等，核心的强化学习原理是相通的。
 
 ## Unity ML Agent方式如何与Sagemaekr集成
-针对使用Unity ML Agent的场景可以参考
+针对使用Unity ML Agent的场景可以参考notebook进行实验。
 https://sagemaker-workshop-ke9u.notebook.us-west-2.sagemaker.aws/notebooks/rl_unity_ray_2021-11-12/rl_unity_ray.ipynb
-notebook进行实验。
+
 
 
