@@ -9,12 +9,12 @@ https://github.com/VerRan/amazon-sagemaker-visual-search -->
 https://github.com/VerRan/dy-ml
 ## 使用3DCNN实现视频分类
 https://github.com/VerRan/sagemaker-byos-3dcnn
-## 使用FM因子分解机实现推荐
+<!-- ## 使用FM因子分解机实现推荐
 https://github.com/VerRan/sagemaker-recommendation-workshop
 ## Sagemaker Studio的使用
 https://github.com/VerRan/sagemaker-studio-workshop
 ## lambda加载模型进行推理
-https://github.com/VerRan/TfLambdaDemo
+https://github.com/VerRan/TfLambdaDemo -->
 <!-- ## 卫星地图上的道路识别
 待整理
 ## 聊天机器人
