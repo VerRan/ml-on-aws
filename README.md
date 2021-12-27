@@ -9,8 +9,9 @@ https://github.com/VerRan/amazon-sagemaker-visual-search -->
 https://github.com/VerRan/dy-ml
 ## 使用3DCNN实现视频分类
 https://github.com/VerRan/sagemaker-byos-3dcnn
-<!-- ## 使用FM因子分解机实现推荐
-https://github.com/VerRan/sagemaker-recommendation-workshop
+## 使用FM因子分解机实现推荐
+https://github.com/VerRan/sagemaker-recommendation-workshop/blob/main/03-Factorization-Machines-Movielens.ipynb
+<!-- 
 ## Sagemaker Studio的使用
 https://github.com/VerRan/sagemaker-studio-workshop
 ## lambda加载模型进行推理
